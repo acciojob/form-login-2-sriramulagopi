@@ -6,8 +6,10 @@ let mail =  document.getElementById("mail");
 let submit = document.getElementById("submit");
 submit.addEventListener("click",(e)=>{
     e.preventDefault();
-    console.log("First Name:"+first.value);
-    console.log("Last Name:"+last.value);
-    console.log("Phone Number:"+number.value);
-    console.log("Email ID:"+mail.value);
+	alert(`
+	First Name:${first.value}
+	Last Name:${last.value} 
+	Phone Number:${number.value}
+	Email ID:${mail.value}
+	`);
 })
