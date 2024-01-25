@@ -7,9 +7,9 @@ let submit = document.getElementById("submit");
 submit.addEventListener("click",(e)=>{
     e.preventDefault();
 	alert(`
-	First Name:${first.value}
-	Last Name:${last.value} 
-	Phone Number:${number.value}
-	Email ID:${mail.value}
-	`);
+First Name:${first.value}
+Last Name:${last.value} 
+Phone Number:${number.value}
+Email ID:${mail.value}
+`);
 })
